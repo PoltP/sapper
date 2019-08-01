@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Sapper.Kernel.Cell">
+    <Position X="8" Y="6.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Sapper.Kernel.Cell.CellState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cells.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Sapper.Kernel.Cell.CellModes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cells.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gEYAIEAAYAEANoCAAAABQAAAAAQAAAAEAAEAlAiACCE=</HashCode>
+      <FileName>Cells.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sapper.Kernel.VisualCell&lt;TVertex, TBox&gt;">
+    <Position X="5" Y="8.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAQQAgAwAAAAAAEAEAAAAQCAAAAAIBAYAIAAA=</HashCode>
+      <FileName>Cells.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.364" />
+  </Class>
+  <Class Name="Sapper.Kernel.Field&lt;TCell&gt;">
+    <Position X="18.25" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAQAgAAwAEAAIACAACRhABwIgBCGQBIQAAACA=</HashCode>
+      <FileName>Fields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sapper.Kernel.VisualField&lt;TCell, TVertex, TBox&gt;">
+    <Position X="15" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAQAAAAgAAAAAAAAAABAAAgAgAiAAAAQAAAAA=</HashCode>
+      <FileName>Fields.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sapper.Kernel.TabularField&lt;TCell, TVertex, TBox&gt;">
+    <Position X="11.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAggA=</HashCode>
+      <FileName>Fields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.Types.FieldMessageEventArgs">
+    <Position X="21.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAgAAQAAAAAAAAAAAAQAAAABIAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.GDISelector" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="6.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAiAAAQAAAAIJggACAAAACAAAAAgAAQBIAAA=</HashCode>
+      <FileName>GDIPainter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sapper.WinSapper.Geometric">
+    <Position X="14" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AcAAAAAAAAAAAIAQAAAAAAAQAAAQAAAABAEABAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.TabularFieldSettings">
+    <Position X="11" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.RectangularCell">
+    <Position X="3.25" Y="13" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAECEAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.EllipticCell">
+    <Position X="1.75" Y="10" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAEAEAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.TrapezoidCell">
+    <Position X="0.5" Y="15.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.RectangularField&lt;TCell&gt;">
+    <Position X="8.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.RectangularRectanglesField" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.RectangularEllipsesField" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.EllipticField&lt;TCell&gt;">
+    <Position X="8.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAgAgAAAAAAUAAgAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.EllipticTrapezoidsField">
+    <Position X="6.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.EllipticPolarField" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.FieldManager" BaseTypeListCollapsed="true">
+    <Position X="14" Y="6.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Sapper.WinSapper.FieldManager.MouseState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GDIPainter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BACAMAAASCAAQAQAEASABwAAIAAAAAAAIIAAQABKACA=</HashCode>
+      <FileName>GDIPainter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sapper.WinUI.MainForm" Collapsed="true">
+    <Position X="22" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAARKAABgQAABCQEQAiCAIAFAkAIEgBAgAAFEg=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinUI.SettingsForm" Collapsed="true">
+    <Position X="22" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIABEYGEAACEAAICAAYEDQAIAgMEQCAAAAAAAAgA=</HashCode>
+      <FileName>SettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinUI.Program" Collapsed="true">
+    <Position X="22" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.Properties.Settings" Collapsed="true">
+    <Position X="22" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.Properties.Resources" Collapsed="true">
+    <Position X="22" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAARAAAAABEAAAAQAAAAAAAAAAAACAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.WinSapper.GDIPainter" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="6.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AhEIIAAAAGEAgAAAiAgABAAGCAIGABgIAiQIAiETBKA=</HashCode>
+      <FileName>GDIPainter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sapper.WinSapper.PolarCell">
+    <Position X="0.5" Y="13" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GDIView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.Types.FieldSettings">
+    <Position X="11" Y="6.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Sapper.Types.FieldSettings.FieldOptions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Types.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EEAAABhAQFgAAhCQDAlIAAACYAAAACAACAAAAAAIAhA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sapper.Types.VisualFieldSettings&lt;TBox&gt;">
+    <Position X="11" Y="10.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAABAAAAABA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sapper.Types.CellsCollection&lt;TCell&gt;" Collapsed="true">
+    <Position X="22" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Sapper.Types.IPainter&lt;TVertex, TBox&gt;">
+    <Position X="16.75" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAACAgAAAAAAAAEABAIAAQIAAEQAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sapper.Types.ISelector&lt;TVertex, TBox&gt;">
+    <Position X="19.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sapper.Types.IDraw&lt;TVertex, TBox&gt;">
+    <Position X="2" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sapper.Types.IField">
+    <Position X="3.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAgAAQAEAAAAAAAAQAAAQAABCAAAIAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sapper.Types.IVisualField&lt;TVertex, TBox&gt;">
+    <Position X="3.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sapper.Types.IVisualCell&lt;TVertex, TBox&gt;">
+    <Position X="0.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sapper.Types.ICell">
+    <Position X="0.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gEIAAAAAAAEANIAAAAAAQAAAAAQAAAAAAAEAkACACCA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Sapper.Types.FieldMessage">
+    <Position X="21.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAEEAAAAAAAAAAEAAAAACACAAAIAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
